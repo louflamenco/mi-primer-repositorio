@@ -1,10 +1,14 @@
-h1{
+.saludo{
     color: blueviolet;
     text-align: center;
 }
 
-p{
+.nombre{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: medium;
+    font-size: 5rem;
+}
+
+.etiquetaDePagina{
+    color: rgb(30, 48, 210);
 }
