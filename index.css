@@ -1,14 +1,27 @@
 .saludo{
     color: blueviolet;
-    text-align: center;
+    font-size: 2rem;
+    height: auto;
 }
 
-.nombre{
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 5rem;
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3em;
+    width: 100%;
 }
 
-.etiquetaDePagina{
-    color: rgb(30, 48, 210);
+#imagenQueen{
+    margin-top: 5em;
+    border-radius: 60em;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorImagen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
